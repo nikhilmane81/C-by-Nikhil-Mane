@@ -45,7 +45,7 @@ int main()
     n.setnumber(5, 7);
     calculator calc;
     int res = calc.sumRC(m, n);
-    cout << res << endl;
+    cout << res<<" + ";
     int res2 = calc.sumCC(m,n);
-    cout << res2 << endl;
+    cout << res2 <<"i"<< endl;
 }

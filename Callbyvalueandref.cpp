@@ -10,7 +10,7 @@ int main()
 {
     int m=5, n=10;
     cout<<"Original values are "<<m<<"and"<<n<<endl;
-    swapptr(&m,&n);co
+    swapptr(&m,&n);
     cout<<"swapped values are "<<m<<"and"<<n<<endl;
     return 0;
 }

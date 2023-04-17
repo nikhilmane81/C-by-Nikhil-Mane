@@ -7,8 +7,9 @@ class simplecalc
     protected:
         float input;
         float a,b;
+        int choice;
     public:
-        int userinput(int choice)
+        void userinput()
         {
             cout<<"To add two numbers press 1"<<endl;
             cout<<"To subtract two numbers press 2"<<endl;
@@ -49,7 +50,8 @@ class scientificcalc
     public:
     int input2;
     float a;
-    int userinput2(int choice2)
+    int choice2;
+    void userinput2()
     {
     cout<<"Press 1 to find the squre of entered number "<< endl;
     cout<<"press 2 to find squareroot of the entered number"<<endl;
@@ -71,7 +73,7 @@ class call:public simplecalc,public scientificcalc
 {
     public:
     int input3;
-    int selection(int input3)
+    void selection()
     {
         cout<<"Press 1 for simple calculator or press 2 for scientific calculator"<<endl;
         cin>>input3;
@@ -79,7 +81,7 @@ class call:public simplecalc,public scientificcalc
         {
             userinput();
         }
-        else:
+        else
             userinput2();
 
     } 

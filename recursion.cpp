@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int factorial(int n)
+double factorial(double n)
 {
     if (n<1)
     {
@@ -10,7 +10,7 @@ int factorial(int n)
 }
 int main()
 {
-    int a;
+    double a;
     cout<<"Enter number to find factorial of the same "<<endl;
     cin>>a;
     cout<<"Factorial of the entered number is "<<factorial(a)<<endl;

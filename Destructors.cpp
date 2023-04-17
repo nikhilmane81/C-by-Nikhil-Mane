@@ -17,7 +17,7 @@ public:
 };
 int main()
 {
-    cout << "we are inside main function";
+    cout << "we are inside main function"<<endl;
     cout << "creating object 1" << endl;
     num n1;
     {
